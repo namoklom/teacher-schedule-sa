@@ -48,6 +48,8 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ## Result
 
+![image](https://github.com/user-attachments/assets/eba74f9d-c8f4-48b3-847a-6ba29562b053)
+
 ![image](https://github.com/user-attachments/assets/285dfd9a-1468-4668-8d3c-3c886d44885e)
 
 The final schedule is visualized as a heatmap, where:
