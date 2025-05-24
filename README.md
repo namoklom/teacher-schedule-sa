@@ -28,15 +28,15 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ### 3. Maximum Number of Shifts per Teacher per Week (12 shifts)
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/0807cd47-f628-4a2c-9a6c-05b8f822f895" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/0807cd47-f628-4a2c-9a6c-05b8f822f895" />
 
 ### 4. Every Teacher Must Teach at Least One Shift per Week
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/4175048a-babb-4266-85c9-0261787bb8df" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/4175048a-babb-4266-85c9-0261787bb8df" />
 
 ### Total Cost Function
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/ecf282c4-a168-4c07-ab4f-b69f439dd5a6" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/ecf282c4-a168-4c07-ab4f-b69f439dd5a6" />
 
 ---
 
