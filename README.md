@@ -16,7 +16,7 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ### Let:
 
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/445a9098-2d13-435a-903b-e3f2faf2cbb8" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/445a9098-2d13-435a-903b-e3f2faf2cbb8" />
 
 ### 1. Break Shift Must Be Empty
 
