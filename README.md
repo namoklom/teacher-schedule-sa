@@ -16,11 +16,11 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ### Let:
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/445a9098-2d13-435a-903b-e3f2faf2cbb8" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/445a9098-2d13-435a-903b-e3f2faf2cbb8" />
 
 ### 1. Break Shift Must Be Empty
 
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/d5882f36-33b4-4e3e-bb93-4f9fff10a3e0" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/d5882f36-33b4-4e3e-bb93-4f9fff10a3e0" />
 
 ### 2. No Teacher Teaches More Than One Shift per Day
 
