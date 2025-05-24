@@ -50,10 +50,10 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 <table>
   <tr>
-    <td style="width:80%; vertical-align: top;">
+    <td style="width:90%; vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/285dfd9a-1468-4668-8d3c-3c886d44885e" alt="Schedule Heatmap" style="width:100%; height: auto;"/>
     </td>
-    <td style="width:20%; vertical-align: top; padding-left: 15px;">
+    <td style="width:10%; vertical-align: top; padding-left: 15px;">
       <img src="https://github.com/user-attachments/assets/eba74f9d-c8f4-48b3-847a-6ba29562b053" alt="Legend" style="width:100%; height: auto;"/>
     </td>
   </tr>
