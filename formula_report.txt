@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Teacher Scheduling Constraints and Cost Function}
+
+Let:
+\begin{itemize}
+    \item $T$ = number of teachers (here, 45)
+    \item $D$ = number of days (6 days)
+    \item $S$ = number of shifts per day (8 shifts)
+    \item $b$ = index of the break shift (4)
+    \item $M$ = maximum allowed shifts per teacher per week (12)
+    \item $\text{schedule}[d,s] \in \{0, 1, \ldots, T-1\} \cup \{-1\}$ be the teacher assigned to day $d$ and shift $s$, or $-1$ if unassigned.
+\end{itemize}
+
+\subsection*{1. Break Shift Must Be Empty}
+\[
+\text{schedule}[d, b] = -1, \quad \forall d \in \{0, \ldots, D-1\}
+\]
+
+Penalty if violated:
+\[
+\text{Cost}_{break} = \sum_{d=0}^{D-1} \mathbf{1}(\text{schedule}[d,b] \neq -1) \times P_{break}
+\]
+where \(P_{break} = 1000\).
+
+\subsection*{2. No Teacher Teaches More Than One Shift per Day}
+\[
+\sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t) \leq 1, \quad \forall d \in \{0, \ldots, D-1\}, \forall t \in \{0, \ldots, T-1\}
+\]
+
+Penalty if violated:
+\[
+\text{Cost}_{conflict} = \sum_{d=0}^{D-1} \sum_{t=0}^{T-1} \max\left(0, \left(\sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t)\right) - 1\right) \times P_{conflict}
+\]
+where \(P_{conflict} = 50\).
+
+\subsection*{3. Maximum Number of Shifts per Teacher per Week}
+\[
+\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t) \leq M, \quad \forall t \in \{0, \ldots, T-1\}
+\]
+
+Penalty if violated:
+\[
+\text{Cost}_{overload} = \sum_{t=0}^{T-1} \max\left(0, \left(\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t)\right) - M\right) \times P_{overload}
+\]
+where \(P_{overload} = 10\).
+
+\subsection*{4. Every Teacher Must Teach at Least One Shift per Week}
+\[
+\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t) \geq 1, \quad \forall t \in \{0, \ldots, T-1\}
+\]
+
+Penalty if violated:
+\[
+\text{Cost}_{inactive} = \sum_{t=0}^{T-1} \mathbf{1}\left(\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t) < 1\right) \times P_{inactive}
+\]
+where \(P_{inactive} = 2000\).
+
+\subsection*{Total Cost Function}
+\[
+\begin{aligned}
+\text{Cost}(schedule) = \quad & \sum_{d=0}^{D-1} \mathbf{1}(\text{schedule}[d,b] \neq -1) \times 1000 \\
++ & \sum_{d=0}^{D-1} \sum_{t=0}^{T-1} \max\left(0, \left(\sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t)\right) - 1\right) \times 50 \\
++ & \sum_{t=0}^{T-1} \max\left(0, \left(\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t)\right) - M\right) \times 10 \\
++ & \sum_{t=0}^{T-1} \mathbf{1}\left(\sum_{d=0}^{D-1} \sum_{\substack{s=0 \\ s \neq b}}^{S-1} \mathbf{1}(\text{schedule}[d,s] = t) < 1\right) \times 2000
+\end{aligned}
+\]
+
+\end{document}
