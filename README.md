@@ -34,5 +34,16 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ---
 
+## 📈 How It Works Together
+
+- The SA algorithm starts with a random schedule.  
+- It calculates the total cost based on the above formula.  
+- It generates neighbor schedules by changing teacher assignments randomly.  
+- Moves that reduce cost are accepted.  
+- Moves that increase cost might be accepted based on probability related to temperature \( T \).  
+- Temperature gradually decreases to reduce acceptance of worse solutions over time.  
+- After iterations, the best found schedule minimizes the total cost and respects constraints as much as possible.
+
+---
 
 
