@@ -4,7 +4,7 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ---
 
-## Constraints and Cost Formulas in Teacher Scheduling
+## 📅 Constraints and Cost Formulas in Teacher Scheduling
 
 ### Let:
 
@@ -30,7 +30,7 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/ecf282c4-a168-4c07-ab4f-b69f439dd5a6" />
 
-
+---
 
 
 
