@@ -1,4 +1,4 @@
-<img width="512" alt="image" src="https://github.com/user-attachments/assets/3bac9387-2474-4fed-8ac4-d058ed0fc777" /><img width="512" alt="image" src="https://github.com/user-attachments/assets/4998bfeb-ec6a-4456-a49c-04ffee84d207" /><img width="512" alt="image" src="https://github.com/user-attachments/assets/21b9397e-f9d6-4fdc-b880-e40b90602b4f" /># Teacher Scheduling Optimization using Simulated Annealing
+# Teacher Scheduling Optimization using Simulated Annealing
 
 This project implements a weekly teacher scheduling system using the **Simulated Annealing** (SA) algorithm. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
 
