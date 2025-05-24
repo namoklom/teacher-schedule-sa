@@ -40,9 +40,38 @@ This project implements a weekly teacher scheduling system using the **Simulated
 - It calculates the total cost based on the above formula.  
 - It generates neighbor schedules by changing teacher assignments randomly.  
 - Moves that reduce cost are accepted.  
-- Moves that increase cost might be accepted based on probability related to temperature \( T \).  
+- Moves that increase cost might be accepted based on probability related to temperature.  
 - Temperature gradually decreases to reduce acceptance of worse solutions over time.  
 - After iterations, the best found schedule minimizes the total cost and respects constraints as much as possible.
+
+---
+
+## Result
+
+![image](https://github.com/user-attachments/assets/285dfd9a-1468-4668-8d3c-3c886d44885e)
+
+The final schedule is visualized as a heatmap, where:
+
+- Rows represent shifts (time slots).
+- Columns represent days of the week.
+- Each cell shows the initials of the assigned teacher and their subject.
+- Empty or break shifts are left blank.
+- A color-coded legend matches teachers with their subjects for easy identification.
+
+This visualization helps quickly identify teacher workloads, shift distribution, and adherence to constraints.
+
+---
+
+## 🛠️ Tools and Libraries Used
+
+| Tool / Library        | Purpose                                                                                     |
+|----------------------|---------------------------------------------------------------------------------------------|
+| **NumPy**            | Efficient numerical operations and array handling for the schedule matrix.                  |
+| **Random**           | Generating random schedules and neighbor solutions in the Simulated Annealing algorithm.   |
+| **Copy**             | Deep copying schedule states to avoid unintended mutations when exploring neighbors.        |
+| **Matplotlib**       | Creating heatmap visualizations of the final schedule for easy interpretation.              |
+| **Seaborn**          | Enhancing heatmap style and annotations for clearer visualization of schedules.             |
+| **Matplotlib Patches** | Custom legend creation to match teacher names and subjects with their corresponding colors. |
 
 ---
 
