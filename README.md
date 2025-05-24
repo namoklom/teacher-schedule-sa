@@ -24,7 +24,9 @@ This section details the mathematical formulation and algorithmic process used i
 
 Each schedule solution `S` is represented as a matrix of dimension **D × S**:
 
-S = {s_{d,s} | d = 1, ..., D; s = 1, ..., S}
+\[
+S = \{ s_{d,s} \mid d = 1, \dots, D; \ s = 1, \dots, S \}
+\]
 
 Where:
 - `s_{d,s}` is the teacher index scheduled on day `d` and shift `s`.
