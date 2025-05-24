@@ -87,6 +87,7 @@ This visualization helps quickly identify teacher workloads, shift distribution,
 | **Matplotlib**       | Creating heatmap visualizations of the final schedule for easy interpretation.              |
 | **Seaborn**          | Enhancing heatmap style and annotations for clearer visualization of schedules.             |
 | **Matplotlib Patches** | Custom legend creation to match teacher names and subjects with their corresponding colors. |
+| **LaTeX**      | Document preparation system used for writing formulas, constraints, and generating reports. |
 
 ---
 
