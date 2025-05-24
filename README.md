@@ -50,14 +50,15 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 <table>
   <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/285dfd9a-1468-4668-8d3c-3c886d44885e" alt="Schedule Heatmap" width="500"/>
+    <td style="width:70%; vertical-align: top;">
+      <img src="https://github.com/user-attachments/assets/285dfd9a-1468-4668-8d3c-3c886d44885e" alt="Schedule Heatmap" style="width:100%; height: auto;"/>
     </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/eba74f9d-c8f4-48b3-847a-6ba29562b053" alt="Legend" width="400"/>
+    <td style="width:30%; vertical-align: top; padding-left: 15px;">
+      <img src="https://github.com/user-attachments/assets/eba74f9d-c8f4-48b3-847a-6ba29562b053" alt="Legend" style="width:100%; height: auto;"/>
     </td>
   </tr>
 </table>
+
 
 The final schedule is visualized as a heatmap, where:
 
