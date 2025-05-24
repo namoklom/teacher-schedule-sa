@@ -1,4 +1,4 @@
-# Teacher Scheduling Optimization using Simulated Annealing Algorithm
+# Teacher Scheduling Optimization using Simulated Annealing (SA) Algorithm
 
 ## 👤 Author
 
@@ -6,7 +6,7 @@
 |-----------------|-------------------|-----------------------------------------------|
 | Jason Emmanuel  | Data Scientist | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
 
-This project implements a weekly teacher scheduling system using the **Simulated Annealing** (SA) algorithm. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
+This project implements a weekly teacher scheduling system using the **Simulated Annealing (SA)** algorithm. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
 
 **Simulated Annealing (SA)** is a probabilistic optimization algorithm inspired by the physical process of annealing in metallurgy, where metals are heated and then slowly cooled to remove defects and reach a more stable, low-energy state.
 
@@ -52,7 +52,7 @@ This project implements a weekly teacher scheduling system using the **Simulated
 
 ---
 
-## Result
+## 📊 Result
 
 <table>
   <tr>
@@ -73,7 +73,7 @@ The final schedule is visualized as a heatmap, where:
 - Empty or break shifts are left blank.
 - A color-coded legend matches teachers with their subjects for easy identification.
 
-This visualization helps quickly identify teacher workloads, shift distribution, and adherence to constraints.
+The purpose of this heatmap is to provide a clear and intuitive visualization of the optimized weekly teaching schedule. It helps stakeholders—such as administrators or planners—quickly understand when and where each teacher is assigned, ensure that scheduling constraints (like maximum shifts, no double-booking, and break periods) are met, and identify any potential issues or imbalances in the distribution of teaching duties.
 
 ---
 
