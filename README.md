@@ -1,5 +1,11 @@
 # Teacher Scheduling Optimization using Simulated Annealing
 
+## 👤 Author
+
+| Name            | Role              | LinkedIn                                      |
+|-----------------|-------------------|-----------------------------------------------|
+| Jason Emmanuel  | Data Scientist | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
+
 This project implements a weekly teacher scheduling system using the **Simulated Annealing** (SA) algorithm. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
 
 **Simulated Annealing (SA)** is a probabilistic optimization algorithm inspired by the physical process of annealing in metallurgy, where metals are heated and then slowly cooled to remove defects and reach a more stable, low-energy state.
