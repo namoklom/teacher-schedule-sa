@@ -62,6 +62,7 @@ def calculate_cost(schedule):
     if min(counts) < 1:
         cost += 2000
     return cost
+```
 
 ---
 
