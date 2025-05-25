@@ -38,32 +38,6 @@ This project implements a weekly teacher scheduling system for 45 teachers using
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/ecf282c4-a168-4c07-ab4f-b69f439dd5a6" />
 
-Application of total cost function in programming:
-
-```python
-def calculate_cost(schedule):
-    cost = 0
-    counts = [0] * num_teachers
-    for d in range(num_days):
-        seen = set()
-        for s in range(num_shifts):
-            if s == break_shift_index:
-                if schedule[d, s] != -1:
-                    cost += 1000
-                continue
-            t = schedule[d, s]
-            counts[t] += 1
-            if t in seen:
-                cost += 50
-            seen.add(t)
-    for c in counts:
-        if c > max_shifts_per_week:
-            cost += (c - max_shifts_per_week) * 10
-    if min(counts) < 1:
-        cost += 2000
-    return cost
-```
-
 ---
 
 ## 📈 How It Works Together
