@@ -1,4 +1,4 @@
-# Teacher Scheduling Optimization using Simulated Annealing (SA) Algorithm
+# Complex Teacher Scheduling Optimization using Simulated Annealing (SA) Algorithm
 
 ## 👤 Author
 
