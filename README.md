@@ -12,7 +12,7 @@ This project implements a weekly teacher scheduling system for 45 teachers using
 
 ---
 
-## 📅 Constraints and Cost Formulas in Teacher Scheduling
+## 🧮 Constraints and Cost Formulas in Teacher Scheduling
 
 ### Let:
 
