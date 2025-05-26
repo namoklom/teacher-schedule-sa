@@ -6,7 +6,7 @@
 |-----------------|-------------------|-----------------------------------------------|
 | Jason Emmanuel  | Data Scientist | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
 
-This project implements a weekly teacher scheduling system for 45 teachers using the **Simulated Annealing (SA)** algorithm. . The schedule spans 6 days per week and 9 time shifts per day, with one slot reserved exclusively for breaks. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
+This project implements a weekly teacher scheduling system for 45 teachers using the **Simulated Annealing (SA)** algorithm. The schedule spans 6 days per week and 9 time shifts per day, with one slot reserved exclusively for breaks. It ensures that each teacher receives at least one teaching slot, with a maximum of 12 shifts per week, and adheres to various scheduling constraints.
 
 **Simulated Annealing (SA)** is a probabilistic optimization algorithm inspired by the physical process of annealing in metallurgy, where metals are heated and then slowly cooled to remove defects and reach a more stable, low-energy state.
 
